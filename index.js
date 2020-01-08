@@ -17,4 +17,7 @@ function renderBooks(json) {
 function getPosts() {
   fetchBooks();
 }
- 
+
+document.addEventListener('DOMContentLoaded', function() {
+  fetchBooks()
+ })
